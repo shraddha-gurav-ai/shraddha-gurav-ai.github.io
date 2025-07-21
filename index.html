@@ -28,17 +28,30 @@
     a {
       color: #0066cc;
     }
+    nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ccff;
+  text-decoration: underline;
+}
   </style>
 </head>
 <body>
  
 <header>
-  <nav style="position: sticky; top: 0; background-color: #333; padding: 10px 0; text-align: center; z-index: 1000;">
-    <a href="#about" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">About</a>
-    <a href="#projects" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Projects</a>
-    <a href="#resume" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Resume</a>
-    <a href="#contact" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Contact</a>
-  </nav>
+ <nav style="position: sticky; top: 0; background-color: #333; padding: 10px 0; text-align: center; z-index: 1000;">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+
   <h1 style="color: white; margin-top: 10px;">Shraddha Gurav</h1>
   <p style="color: white;">Computer Science | AI/ML | Android | Cybersecurity | AWS</p>
 </header>
