@@ -86,3 +86,29 @@ footer {
   body {
     padding: 20
 
+    .blog-header {
+  background-color: #e0f2fe;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.blog-header h1 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.blog-meta {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.blog-description {
+  font-size: 16px;
+  color: #334155;
+}
+
